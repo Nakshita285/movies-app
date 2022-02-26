@@ -1,0 +1,40 @@
+.movie{
+    height: 320px;
+    width: 220px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    background-color: #161a1d;
+    color: white;
+    margin: 10px;
+    transition: transform 0.5s;
+
+}
+.movie:hover{
+    transform:scale(1.1);
+}
+.movie-img{
+    height: 90%;
+    width: 100%;
+}
+.movie-img img{
+    height:95%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.movie-content{
+    height: 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 5px;
+}
+.movie-title{
+    height: 100%;
+
+
+}
+.movie-votes{
+    float: right;
+}

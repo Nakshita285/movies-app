@@ -1,0 +1,19 @@
+.movies{
+    height: 85%;
+    width: 100%;
+    background: #0b090a;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+
+}
+.movies-container{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+    /* padding: 10px; */
+}
